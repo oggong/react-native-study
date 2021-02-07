@@ -1,10 +1,10 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, Text, View, Image } from "react-native";
-import Canvas from "react-native-canvas";
+import { StyleSheet, Text, View } from "react-native";
+import Canvas, { Image as CanvasImage } from "react-native-canvas";
 
 export default function App() {
-  handleCanvas = (canvas) => {
+  const handleCanvas = (canvas) => {
     const ctx = canvas.getContext("2d");
     ctx.fillStyle = "purple";
     ctx.fillRect(0, 0, 100, 100);
@@ -13,7 +13,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-      <Canvas ref={this.handleCanvas}></Canvas>
+      <Canvas ref={handleCanvas}></Canvas>
     </View>
   );
 }
