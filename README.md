@@ -6,4 +6,8 @@
 
 ## react-native-canvas
 
+#### https://www.npmjs.com/package/react-native-canvas
+
+#### https://github.com/iddan/react-native-canvas/issues/60
+
 ##### link 및 공부 기록
