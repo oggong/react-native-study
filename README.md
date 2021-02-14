@@ -11,3 +11,5 @@
 #### https://github.com/iddan/react-native-canvas/issues/60
 
 ##### link 및 공부 기록
+
+##### react-native module link?

@@ -8,6 +8,7 @@ export default function App() {
     const ctx = canvas.getContext("2d");
     ctx.fillStyle = "purple";
     ctx.fillRect(0, 0, 100, 100);
+    // add
   };
 
   return (
