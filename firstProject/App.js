@@ -24,6 +24,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import {RNCamera} from 'react-native-camera';
+
 // const App: () => React$Node = () => {
 //   return (
 //     <>
@@ -40,12 +42,21 @@ const App = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <Text>test</Text>
+        <RNCamera
+          style={styles.testCamera}
+          type={RNCamera.Constants.Type.back}
+          captureAudio={false}
+        />
       </SafeAreaView>
     </>
   );
 };
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  testCamera: {
+    width: 200,
+    height: 200,
+  },
+});
 
 export default App;
