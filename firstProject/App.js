@@ -26,37 +26,17 @@ import {
 
 import {RNCamera} from 'react-native-camera';
 
-// const App: () => React$Node = () => {
-//   return (
-//     <>
-//       <StatusBar barStyle="dark-content" />
-//       <SafeAreaView>
-//         <Text>test</Text>
-//       </SafeAreaView>
-//     </>
-//   );
-// };
-
-const App = () => {
+const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <RNCamera
-          style={styles.testCamera}
-          type={RNCamera.Constants.Type.back}
-          captureAudio={false}
-        />
+        <Text>test</Text>
       </SafeAreaView>
     </>
   );
 };
 
-const styles = StyleSheet.create({
-  testCamera: {
-    width: 200,
-    height: 200,
-  },
-});
+const styles = StyleSheet.create({});
 
 export default App;
