@@ -22,6 +22,7 @@ const App = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <Text>Test</Text>
+        <Text>Test2</Text>
       </SafeAreaView>
     </>
   );
